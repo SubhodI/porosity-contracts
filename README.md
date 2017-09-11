@@ -24,11 +24,13 @@
 ## [Reentrancy guard](#10-solidity-libraries)
 ## 1. Crowdsale
 ***
-    Crowdsale contract
-
+        Crowdsale is a  contract for managing a token crowdsale.Crowdsales have a start and end block, where investors can make token purchases and the crowdsale will assign them tokens based on a token per ETH rate. Funds collected are forwarded to a wallet as they arrive.
+    
 ### 2. Lifecycle contract
 ***
-    Lifecycle contract
+        Lifecycle contract includes following solutions.
+        * Fund management in case of contract destruction.
+        * Emergency stop mechanisms.
 
 ### 3. Math contract
 ***
