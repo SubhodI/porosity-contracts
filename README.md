@@ -1,7 +1,7 @@
-### Type of attacks and secure soltions
-* [Known attacks and solution ](https://github.com/ConsenSys/smart-contract-best-practices) 
+### Type of attacks and secure solutions
+* [Known attacks and solutions from ConsenSys ](https://github.com/ConsenSys/smart-contract-best-practices) 
 * [Security considerations](https://solidity.readthedocs.io/en/develop/security-considerations.html) 
-* [Zeppelin security on smart contract](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702) 
+* [Zeppelin security blog on smart contracts](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702) 
 
 ### 1. Crowdsale
 ***
