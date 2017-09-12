@@ -14,7 +14,7 @@ Math contract Checks for `overflow/underflow` of uint256 basic math operations.
 
 ### 4. Ownership contract
 ***
-ownership contract has following mechanisms
+Ownership contract has following mechanisms
 * Controlling ownershipof the contract.
 * Claming ownership of the contract.
 * To block incoming ether to prevent accidental loss of Ether.
