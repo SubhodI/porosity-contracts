@@ -21,25 +21,24 @@
 
 ## [Multisig wallet](#11-multisigwallet-contract)
 
-## [Reentrancy guard](#12-rentrancy-guard-contract)
+## [Reentrancy guard](#12-re-entrancy-guard-contract)
 ## 1. Crowdsale
 ***
-Crowdsale is a  contract for managing a token crowdsale.Crowdsales have a start and end block, where investors can make token purchases and the crowdsale will assign them tokens based on a token per ETH rate. Funds collected are forwarded to a wallet as they arrive.
+Crowdsale is a contract for managing token crowdsale. Crowdsales have a start and end block, where investors can make token purchases and the crowdsale will assign them tokens based on a token per ETH rate. Funds collected are forwarded to a wallet as they arrive.
     
 ### 2. Lifecycle contract
 ***
-Lifecycle contract includes following solutions
+Lifecycle contract has following mechanisms
 * Fund management in case of contract destruction.
 * Emergency stop mechanisms.
 
 ### 3. Math contract
 ***
-Math contract includes following solution
-* Checks for overflow/underflow of uint256 math operations.
+Math contract Checks for overflow/underflow of uint256 basic math operations.
 
 ### 4. Ownership contract
 ***
-ownership contract includes following solution
+ownership contract has following mechanisms
 * Controlling ownershipof the contract.
 * Claming ownership of the contract.
 * To block incoming ether to prevent accidental loss of Ether.
@@ -50,12 +49,11 @@ ownership contract includes following solution
 
 ### 5. Payment contract
 ***
-Payment contract includes following solution
-* Supporting async send for pull payments.
+Payment contract Supports async send for pull payments.
 
 ### 6. Token contract
 ***
-Token contracts has many different token safety checks. provides interface for ERC20 tokens. Refer each contract description for its use and security parameters.
+Token contracts has many different token safety checks. provides interface for ERC20 tokens. Refer each contract description and code for its use and security parameters.
 
 ### 7. Bounty contract
 ***
@@ -75,7 +73,7 @@ Inherit this contract if you want to limit the balance of the contract.
 
 ### 11. MultisigWallet contract
 ***
-Inherit this contract if you want to limit the balance of the contract.
+Contract can hold multiple owners address and number of approvals required for any trasnaction and it also has daily limit. Executes transaction immediately if below daily spending limit. If not, goes into multisig process.
 
 ### 12. Re-entrancy guard contract
 ***
