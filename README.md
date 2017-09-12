@@ -15,13 +15,13 @@
 
 ## [DayLimit](#8-daylimit-contract)
 
-## [EC recovery](#9-ecrecover-contract)
+## [EC recovery](#9-ecrecovery-contract)
 
 ## [Limit balance](#10-limit-balance-contract)
 
 ## [Multisig wallet](#11-multisigwallet-contract)
 
-## [Reentrancy guard](#12-reentrancy-guard-contract)
+## [Reentrancy guard](#12-rentrancy-guard-contract)
 ## 1. Crowdsale
 ***
 Crowdsale is a  contract for managing a token crowdsale.Crowdsales have a start and end block, where investors can make token purchases and the crowdsale will assign them tokens based on a token per ETH rate. Funds collected are forwarded to a wallet as they arrive.
@@ -77,6 +77,6 @@ Inherit this contract if you want to limit the balance of the contract.
 ***
 Inherit this contract if you want to limit the balance of the contract.
 
-### 12. Rentrancy guard contract
+### 12. Re-entrancy guard contract
 ***
 Use the modifier `nonReentrant` to make any function secure against re-entrancy attack.
