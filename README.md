@@ -1,27 +1,3 @@
-
-## [Crowdsale](#1-crowdsale)
-
-## [Lifecycle](#2-lifecycle-contract)
-
-## [Math](#3-math-contract)
-
-## [Ownership](#4-ownership-contract)
-
-## [Payment](#5-payment-contract)
-
-## [Token](#6-token-contract)
-
-## [Bounty](#7-bounty-contract)
-
-## [DayLimit](#8-daylimit-contract)
-
-## [EC recovery](#9-ecrecovery-contract)
-
-## [Limit balance](#10-limit-balance-contract)
-
-## [Multisig wallet](#11-multisigwallet-contract)
-
-## [Reentrancy guard](#12-re-entrancy-guard-contract)
 ## 1. Crowdsale
 ***
 Crowdsale is a contract for managing token crowdsale. Crowdsales have a start and end block, where investors can make token purchases and the crowdsale will assign them tokens based on a token per ETH rate. Funds collected are forwarded to a wallet as they arrive.
@@ -34,7 +10,7 @@ Lifecycle contract has following mechanisms
 
 ### 3. Math contract
 ***
-Math contract Checks for overflow/underflow of uint256 basic math operations.
+Math contract Checks for `overflow/underflow` of uint256 basic math operations.
 
 ### 4. Ownership contract
 ***
