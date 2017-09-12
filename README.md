@@ -1,3 +1,8 @@
+### Type of attacks and secure soltions
+* [Known attacks and solution ](https://github.com/ConsenSys/smart-contract-best-practices) 
+* [Security considerations](https://solidity.readthedocs.io/en/develop/security-considerations.html) 
+* [Zeppelin security on smart contract](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702) 
+
 ### 1. Crowdsale
 ***
 Crowdsale is a contract for managing token crowdsale. Crowdsales have a start and end block, where investors can make token purchases and the crowdsale will assign them tokens based on a token per ETH rate. Funds collected are forwarded to a wallet as they arrive.
